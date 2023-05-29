@@ -1,0 +1,33 @@
+.flex-center{
+    @include displayPosition(center,center);
+}
+.flex-start{
+    @include displayPosition(center,start)
+}
+.flex-end{
+    @include displayPosition(center,end);
+}
+.flex-between{
+    @include displayPosition(center,space-between);
+}
+.flex-around{
+    @include displayPosition(center,space-around);
+}
+.gilroy-bold{
+    font-family: 'Gilroy-Bold';
+}
+.gilroy-heavy{
+    font-family: 'Gilroy-Heavy';
+}
+.gilroy-light{
+    font-family: 'Gilroy-Light';
+}
+.gilroy-medium{
+    font-family: 'Gilroy-Medium';
+}
+.gilroy-regular{
+    font-family: 'Gilroy-Regular';
+}
+.inter{
+    font-family: 'Inter', sans-serif;
+}

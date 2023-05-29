@@ -1,0 +1,21 @@
+@import 'mixins';
+@import 'font';
+@import 'utility';
+body{
+    font-family: 'Gilroy-Regular';
+}
+
+.slick-prev::before {
+    display: none;
+}
+
+.slick-next::before {
+    display: none;
+}
+.client-card{
+    width: 376px !important;
+    height: 476px !important;
+    display: block !important;
+    margin: auto;
+    border-radius: 19px;
+}
