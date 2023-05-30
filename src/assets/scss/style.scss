@@ -13,8 +13,12 @@ body{
     display: none;
 }
 .client-card{
+    
+   
     width: 376px !important;
-    height: 476px !important;
+    @media screen and (max-width:400px) {
+        width: 266px !important;
+   }
     display: block !important;
     margin: auto;
     border-radius: 19px;

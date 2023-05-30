@@ -5,6 +5,8 @@ import Slider from 'react-slick';
 import Review from './review';
 import PrevArrow from './PrevArrow';
 import NextArrow from './NextArrow';
+import Next from './Next';
+import Prev from './Prev';
 const Client = () => {
     const settings = {
         dots: false,
@@ -13,8 +15,8 @@ const Client = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        prevArrow: <PrevArrow />,
-        nextArrow: <NextArrow />,
+        prevArrow: <Prev />,
+        nextArrow: <Next  />,
         responsive: [
             
             {
@@ -50,8 +52,8 @@ const Client = () => {
                 <div className="px-30px sm:px-[100px] xxxl:px-[145px]">
                     <div className="w-full">
                         <Slider {...settings} >
-                            <div className="xs:w-[376px] w-[90vw] client-card h-[476px] bg-[url('/src/assets/images/bg1.png')] bg-cover bg-no-repeat ">
-                                <div className="flex pb-[18px] w-[376px] h-[476px] justify-center items-end">
+                            <div className="xs:w-[376px]  w-[266px] client-card h-[476px] bg-[url('/src/assets/images/bg1.png')] bg-cover bg-no-repeat ">
+                                <div className="flex pb-[18px] xs:w-[376px]  w-[266px] h-[476px] justify-center items-end">
                                     <div className="flex-1 px-[18.1182px]">
                                         <div className="bg-white pb-[18px] px-[40px] rounded-[18.1182px]">
                                             <div className='flex-center'>
@@ -67,8 +69,8 @@ const Client = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="xs:w-[376px] w-[90vw] client-card h-[476px] bg-[url('/src/assets/images/bg1.png')] bg-cover bg-no-repeat ">
-                                <div className="flex pb-[18px] w-[376px] h-[476px] justify-center items-end">
+                            <div className="xs:w-[376px]  w-[266px] client-card h-[476px] bg-[url('/src/assets/images/bg1.png')] bg-cover bg-no-repeat ">
+                                <div className="flex pb-[18px] xs:w-[376px]  w-[266px] h-[476px] justify-center items-end">
                                     <div className="flex-1 px-[18.1182px]">
                                         <div className="bg-white pb-[18px] px-[40px] rounded-[18.1182px]">
                                             <div className='flex-center'>
@@ -84,8 +86,8 @@ const Client = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="xs:w-[376px] w-[90vw] client-card h-[476px] bg-[url('/src/assets/images/bg1.png')] bg-cover bg-no-repeat ">
-                                <div className="flex pb-[18px] w-[376px] h-[476px] justify-center items-end">
+                            <div className="xs:w-[376px]  w-[266px] client-card h-[476px] bg-[url('/src/assets/images/bg1.png')] bg-cover bg-no-repeat ">
+                                <div className="flex pb-[18px] xs:w-[376px] w-[266px] h-[476px] justify-center items-end">
                                     <div className="flex-1 px-[18.1182px]">
                                         <div className="bg-white pb-[18px] px-[40px] rounded-[18.1182px]">
                                             <div className='flex-center'>
@@ -101,8 +103,8 @@ const Client = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="xs:w-[376px] w-[90vw] client-card h-[476px] bg-[url('/src/assets/images/bg1.png')] bg-cover bg-no-repeat ">
-                                <div className="flex pb-[18px] w-[376px] h-[476px] justify-center items-end">
+                            <div className="xs:w-[376px]  w-[266px] client-card h-[476px] bg-[url('/src/assets/images/bg1.png')] bg-cover bg-no-repeat ">
+                                <div className="flex pb-[18px] xs:w-[376px]  w-[266px] h-[476px] justify-center items-end">
                                     <div className="flex-1 px-[18.1182px]">
                                         <div className="bg-white pb-[18px] px-[40px] rounded-[18.1182px]">
                                             <div className='flex-center'>
@@ -118,8 +120,8 @@ const Client = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="xs:w-[376px] w-[90vw] client-card h-[476px] bg-[url('/src/assets/images/bg1.png')] bg-cover bg-no-repeat ">
-                                <div className="flex pb-[18px] w-[376px] h-[476px] justify-center items-end">
+                            <div className="xs:w-[376px]  w-[266px] client-card h-[476px] bg-[url('/src/assets/images/bg1.png')] bg-cover bg-no-repeat ">
+                                <div className="flex pb-[18px] xs:w-[376px]  w-[266px] h-[476px] justify-center items-end">
                                     <div className="flex-1 px-[18.1182px]">
                                         <div className="bg-white pb-[18px] px-[40px] rounded-[18.1182px]">
                                             <div className='flex-center'>

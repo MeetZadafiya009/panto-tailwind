@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}","./node_modules/flowbite/**/*.js"],
   theme: {
     screens: {
-      xs: '375px',
+      xs: '400px',
       sm: '576px',
       md: '768px',
       lg: '992px',

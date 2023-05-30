@@ -48,7 +48,7 @@ const Footer = () => {
                 <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1">
                     <div className='px-[0px] lg:px-[2rem]  m:text-center'>
                         <h2 className='gilroy-bold max-md:text-center text-[28px] leading-[33px]'>Panto</h2>
-                        <p className='max-md:text-center xl:mt-[2rem] mt-[1.5rem]'>
+                        <p className='max-md:text-center xl:mt-[12px] mt-[10px]'>
                             The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.
                         </p>
                     </div>
@@ -81,10 +81,10 @@ const Footer = () => {
             <div className='xl:px-[150px] xxl:px-[188px] lg:px-[120px] md:px-[188px] sm:px-[140px] px-[50px]  m-0 pb-[1rem]'>
                 <div className='max-md:flex-col flex-between'>
                     <div className='lg:w-2/12 md:w-4/12 w-full'>
-                        <div className='text-[#1E2833] text-[15px] leading-[20px] max-md:mb-[1rem] max-md:text-center'>Copyright © 2021</div>
+                        <div className='text-[#1E1E1E] dm-sans-regular text-[15px] leading-[20px]  max-md:mb-[1rem] max-md:text-center'>Copyright © 2021</div>
                     </div>
                     <div className='max-md:flex-col flex-end w-full md:w-7/12 lg:w-5/12 xl:w-4/12'>
-                        <div className='max-md:text-center max-md:mb-[1rem] gilroy-medium mr-[2rem] text-[15px] text-[#1E1E1E] opacity-[0.8]'>
+                        <div className='max-md:text-center max-md:mb-[1rem] gilroy-medium md:mr-[2rem] text-[15px] text-[#1E1E1E] opacity-[0.8]'>
                         Terms & Conditions
                         </div>
                         <div className='max-md:text-center max-md:mb-[1rem] gilroy-medium text-[15px] text-[#1E1E1E] opacity-[0.8]'>
