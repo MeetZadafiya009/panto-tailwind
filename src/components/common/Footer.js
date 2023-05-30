@@ -4,47 +4,8 @@ import twitter from './../../assets/images/twitter.png';
 const Footer = () => {
     return (
         <footer className="pt-[6rem] bg-[#F7F7F7]">
-            {/* <div className="container mx-auto">
-                <div className='flex pb-[3rem]'>
-                    <div className='flex max-md:flex-col w-6/12 '>
-                        <div className='lg:px-[0px] md:px-[2rem] px-[3rem] m:text-center md:w-6/12 w-full'>
-                            <h2 className='gilroy-bold text-[28px] leading-[33px]'>Panto</h2>
-                            <p className='mt-[2.5rem]'>
-                                The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.
-                            </p>
-                        </div>
-                        <div className='md:w-6/12  w-full flex-center'>
-                            <ul className='sm:p-[0px]  sm:text-center'>
-                                <li className='mb-[0.75rem] text-[#F6973F]'>Services</li>
-                                <li className='mb-[0.75rem]'><a className="text-[#1E1E1E]" href='#'>Email Marketing</a></li>
-                                <li className='mb-[0.75rem]'><a className="text-[#1E1E1E]" href="#">Campaigns</a></li>
-                                <li className='mb-[0.75rem]'><a className="text-[#1E1E1E]" href="#">Branding</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className='flex max-md:flex-col w-6/12'>
-                        <div className='md:flex-start md:w-6/12 w-full flex-center'>
-                            <ul className='sm:p-[0px] md:pl-[0] text-centerr'>
-                                <li className='mb-[0.75rem] text-[#F6973F]'>Furniture</li>
-                                <li className='mb-[0.75rem]'><a className="text-[#1E1E1E]" href="#">Beds</a></li>
-                                <li className='mb-[0.75rem]'><a className="text-[#1E1E1E]" href="#">Chair</a></li>
-                                <li className='mb-[0.75rem]'><a className="text-[#1E1E1E]" href="#">All</a></li>
-                            </ul>
-                        </div>
-                        <div className='md:w-6/12 w-full flex-center'>
-                            <ul className='sm:p-[0px] sm:text-center'>
-                                <li className='mb-[0.75rem] text-[#F6973F]'>Follow Us</li>
-                                <li className='mb-[0.75rem] flex'><img src={facebook} className='me-4 w-[9.92px] h-[19.84px] img-fluid' alt='facebook' /><a className="text-[#1E1E1E]" href='#'>Facebook</a></li>
-                                <li className='mb-[0.75rem] flex'><img src={twitter} className='me-3 w-[19.56px] h-[15.89px] img-fluid' alt='twitter' /><a className="text-[#1E1E1E]" href='#'>Twitter</a></li>
-                                <li className='mb-[0.75rem] flex'><img src={instagram} className='me-3 w-[20px] h-[20px] img-fluid' alt='facebook' /><a className="text-[#1E1E1E]" href='#'>Instagram</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-           
-            </div> */}
-            <div className='xl:px-[150px] xxl:px-[188px] lg:px-[120px] md:px-[188px] sm:px-[140px] px-[50px]  m-0 pb-[3rem]'>
+            
+            <div className='xl:px-[150px] xxl:px-[188px] lg:px-[120px] md:px-[150px] sm:px-[140px] px-[50px]  m-0 pb-[3rem]'>
                 <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1">
                     <div className='px-[0px] lg:px-[2rem]  m:text-center'>
                         <h2 className='gilroy-bold max-md:text-center text-[28px] leading-[33px]'>Panto</h2>
@@ -54,26 +15,26 @@ const Footer = () => {
                     </div>
                     <div className='max-md:mt-[2rem] w-full flex-center'>
                         <ul className='sm:p-[0px]  '>
-                            <li className='mb-[0.75rem] text-[#F6973F]'>Services</li>
-                            <li className='mb-[0.75rem]'><a className="text-[#1E1E1E]" href='#'>Email Marketing</a></li>
-                            <li className='mb-[0.75rem]'><a className="text-[#1E1E1E]" href="#">Campaigns</a></li>
-                            <li className='mb-[0.75rem]'><a className="text-[#1E1E1E]" href="#">Branding</a></li>
+                            <li className='max-md:text-center mb-[0.75rem] text-[#F6973F]'>Services</li>
+                            <li className='max-md:text-center mb-[0.75rem]'><a className="text-[#1E1E1E]" href='#'>Email Marketing</a></li>
+                            <li className='max-md:text-center mb-[0.75rem]'><a className="text-[#1E1E1E]" href="#">Campaigns</a></li>
+                            <li className='max-md:text-center mb-[0.75rem]'><a className="text-[#1E1E1E]" href="#">Branding</a></li>
                         </ul>
                     </div>
                     <div className='max-lg:mt-[2rem] w-full flex lg:justify-center md:justify-start justify-center items-center '>
                         <ul className='sm:p-[0px]  '>
-                            <li className='mb-[0.75rem] text-[#F6973F]'>Services</li>
-                            <li className='mb-[0.75rem]'><a className="text-[#1E1E1E]" href='#'>Email Marketing</a></li>
-                            <li className='mb-[0.75rem]'><a className="text-[#1E1E1E]" href="#">Campaigns</a></li>
-                            <li className='mb-[0.75rem]'><a className="text-[#1E1E1E]" href="#">Branding</a></li>
+                            <li className='max-md:text-center mb-[0.75rem] text-[#F6973F]'>Services</li>
+                            <li className='max-md:text-center mb-[0.75rem]'><a className="text-[#1E1E1E]" href='#'>Email Marketing</a></li>
+                            <li className='max-md:text-centermb-[0.75rem]'><a className="text-[#1E1E1E]" href="#">Campaigns</a></li>
+                            <li className='max-md:text-center mb-[0.75rem]'><a className="text-[#1E1E1E]" href="#">Branding</a></li>
                         </ul>
                     </div>
                     <div className='max-lg:mt-[2rem] flex-center'>
                         <ul className='sm:p-[0px] '>
-                            <li className='mb-[0.75rem] text-[#F6973F]'>Follow Us</li>
-                            <li className='mb-[0.75rem] flex'><img src={facebook} className='me-4 w-[9.92px] h-[19.84px] img-fluid' alt='facebook' /><a className="text-[#1E1E1E]" href='#'>Facebook</a></li>
-                            <li className='mb-[0.75rem] flex'><img src={twitter} className='me-3 w-[19.56px] h-[15.89px] img-fluid' alt='twitter' /><a className="text-[#1E1E1E]" href='#'>Twitter</a></li>
-                            <li className='mb-[0.75rem] flex'><img src={instagram} className='me-3 w-[20px] h-[20px] img-fluid' alt='facebook' /><a className="text-[#1E1E1E]" href='#'>Instagram</a></li>
+                            <li className='max-md:text-center mb-[0.75rem] text-[#F6973F]'>Follow Us</li>
+                            <li className='max-md:text-center mb-[0.75rem] flex'><img src={facebook} className='me-4 w-[9.92px] h-[19.84px] img-fluid' alt='facebook' /><a className="text-[#1E1E1E]" href='#'>Facebook</a></li>
+                            <li className='max-md:text-center mb-[0.75rem] flex'><img src={twitter} className='me-3 w-[19.56px] h-[15.89px] img-fluid' alt='twitter' /><a className="text-[#1E1E1E]" href='#'>Twitter</a></li>
+                            <li className='max-md:text-center mb-[0.75rem] flex'><img src={instagram} className='me-3 w-[20px] h-[20px] img-fluid' alt='facebook' /><a className="text-[#1E1E1E]" href='#'>Instagram</a></li>
                         </ul>
                     </div>
                 </div>
